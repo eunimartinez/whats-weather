@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: rgb(3, 3, 97);
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.page {
+  display: flex;
+}
+.cities-section {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+}
+.cities-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+.cities-input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.cities-submit {
+  padding: 10px;
+  background-color: rgb(3, 3, 97);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.cities-select {
+  padding: 10px;
+  background-color: #dedede;
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.weather-section {
+  width: 69.5vw;
+  padding: 20px;
+}
+
+.temperature {
+  display: flex;
+}
+.weather {
+  padding: 2vw;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.current-city {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.forcast {
+  margin: 10px;
+}
+.forcast-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.forcast-container {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.forcast-city {
+  margin-bottom: 20px;
+}
+
+.forcast-box {
+  width: 130px;
+  background-color: rgb(3, 3, 97);
+  color: white;
+  padding: 20px;
+}
+
+.forcast-temp {
+  margin: 10px 0;
+}

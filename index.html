@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <p>Weather Dashboard</p>
+    </nav>
+    <div class="page">
+      <div class="cities-section">
+        <p class="cities-title">Search for a city</p>
+        <input class="cities-input" type="text" placeholder="City..." />
+        <button class="cities-submit">Submit</button>
+        <hr />
+        <button class="cities-select">Miami</button>
+      </div>
+      <div class="weather-section">
+        <div class="main-section">
+          <div class="weather">
+            <div class="current-city">
+              <p id="city-name">City Name</p>
+              <p id="city-date" style="margin-left: 2vw">(9/13/2022)</p>
+            </div>
+            <div class="temperature">
+              <p>Temp:</p>
+              <p class="temperature" id="current-temp">00.00</p>
+              <p>F</p>
+            </div>
+            <div class="temperature">
+              <p>Wind:</p>
+              <p class="temperature" id="current-wind">00.00</p>
+              <p>MPH</p>
+            </div>
+            <div class="temperature">
+              <p>humidity:</p>
+              <p class="temperature" id="current-humid">00.00</p>
+              <p>%</p>
+            </div>
+          </div>
+          <div class="forcast">
+            <p class="forcast-title">5-day-Forcast</p>
+            <div class="forcast-container">
+              <div class="forcast-box">
+                <div class="forcast-city">
+                  <p>(9/13/2022)</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Temp:</p>
+                  <p class="temperature">00.00</p>
+                  <p>F</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Wind:</p>
+                  <p class="temperature">00.00</p>
+                  <p>MPH</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>humidity:</p>
+                  <p class="temperature">00.00</p>
+                  <p>%</p>
+                </div>
+              </div>
+              <div class="forcast-box">
+                <div class="forcast-city">
+                  <p>(9/13/2022)</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Temp:</p>
+                  <p class="temperature">00.00</p>
+                  <p>F</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Wind:</p>
+                  <p class="temperature">00.00</p>
+                  <p>MPH</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>humidity:</p>
+                  <p class="temperature">00.00</p>
+                  <p>%</p>
+                </div>
+              </div>
+              <div class="forcast-box">
+                <div class="forcast-city">
+                  <p>(9/13/2022)</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Temp:</p>
+                  <p class="temperature">00.00</p>
+                  <p>F</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Wind:</p>
+                  <p class="temperature">00.00</p>
+                  <p>MPH</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>humidity:</p>
+                  <p class="temperature">00.00</p>
+                  <p>%</p>
+                </div>
+              </div>
+              <div class="forcast-box">
+                <div class="forcast-city">
+                  <p>(9/13/2022)</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Temp:</p>
+                  <p class="temperature">00.00</p>
+                  <p>F</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Wind:</p>
+                  <p class="temperature">00.00</p>
+                  <p>MPH</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>humidity:</p>
+                  <p class="temperature">00.00</p>
+                  <p>%</p>
+                </div>
+              </div>
+              <div class="forcast-box">
+                <div class="forcast-city">
+                  <p>(9/13/2022)</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Temp:</p>
+                  <p class="temperature">00.00</p>
+                  <p>F</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>Wind:</p>
+                  <p class="temperature">00.00</p>
+                  <p>MPH</p>
+                </div>
+                <div class="temperature forcast-temp">
+                  <p>humidity:</p>
+                  <p class="temperature">00.00</p>
+                  <p>%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
